@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoTickets Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">GoTickets</a></div>
+    <nav class="site-nav">
+      <a href="#search">Search</a>
+      <a href="#top-events">Top Events</a>
+      <a href="checkout.html" class="button button-alt">Checkout</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p>Buy tickets to shows, concerts, and sporting events.</p>
+        <h1>Go See It Live</h1>
+        <form id="search" class="search-form">
+          <label for="event-query" class="sr-only">Search events</label>
+          <input id="event-query" type="text" placeholder="Search by team, artist, event or venue" />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+      <div class="hero-image"></div>
+    </section>
+
+    <section class="top-events" id="top-events">
+      <div class="section-head">
+        <h2>Top Events in</h2>
+        <button class="button-small">All regions</button>
+      </div>
+      <div class="card-grid">
+        <article class="card">
+          <h3>Concerts</h3>
+          <p>Popular artists, live concerts, and festival tickets.</p>
+        </article>
+        <article class="card">
+          <h3>Sports</h3>
+          <p>Major league tickets, playoffs, and sporting events.</p>
+        </article>
+        <article class="card">
+          <h3>Theater</h3>
+          <p>Broadway, plays, and live theater experiences.</p>
+        </article>
+        <article class="card">
+          <h3>Comedy</h3>
+          <p>Stand-up specials and comedy nights near you.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="featured">
+      <h2>Popular Venues</h2>
+      <div class="venue-grid">
+        <span>Madison Square Garden</span>
+        <span>Staples Center</span>
+        <span>Wembley Stadium</span>
+        <span>The O2 Arena</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">© 2026 Go Marketplace LLC d/b/a GoTickets</div>
+    <div class="footer-links">
+      <a href="#">Order Status</a>
+      <a href="#">Support</a>
+      <a href="#">Guarantee</a>
+      <a href="#">About Us</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
